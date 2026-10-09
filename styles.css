@@ -1,0 +1,64 @@
+:root {
+  --azul-escuro: #0f172a;
+  --azul-claro: #dbeafe;
+  --cinza-claro: #e2e8f0;
+  --laranja: #f97316;
+  --laranja-escuro: #ea580c;
+  --branco: #ffffff;
+}
+
+*{
+  margin: 0;
+  font-family: Arial;
+}
+
+header {
+
+}
+
+.logo {
+
+}
+
+nav a {
+
+}
+
+.hero {
+
+}
+
+.botao {
+  display: inline-block;
+}
+
+.cursos {
+
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+
+}
+
+.card h3 {
+
+}
+
+.card a {
+    
+}
+
+.sobre {
+
+}
+
+footer {
+
+}
