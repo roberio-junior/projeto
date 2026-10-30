@@ -1,13 +1,37 @@
 :root {
   --azul-escuro: #0f172a;
+  --azul: #2563eb;
   --azul-claro: #dbeafe;
-  --cinza-claro: #e2e8f0;
+
   --laranja: #f97316;
   --laranja-escuro: #ea580c;
+
+  --verde: #16a34a;
+  --verde-claro: #dcfce7;
+
+  --roxo: #7c3aed;
+  --roxo-claro: #ede9fe;
+
+  --rosa: #db2777;
+  --rosa-claro: #fce7f3;
+
+  --vermelho: #dc2626;
+  --vermelho-claro: #fee2e2;
+
+  --amarelo: #eab308;
+  --amarelo-claro: #fef9c3;
+
+  --ciano: #0891b2;
+  --ciano-claro: #cffafe;
+
+  --cinza-escuro: #334155;
+  --cinza-claro: #e2e8f0;
+
+  --preto: #111827;
   --branco: #ffffff;
 }
 
-*{
+* {
   margin: 0;
   font-family: Arial;
 }
@@ -57,11 +81,12 @@ header {
 }
 
 .card {
-  width: 250px;
-  padding: 20px;
-  background: var(--branco);
   border: 2px solid var(--laranja);
   border-radius: 10px;
+  background: var(--branco);
+  width: 250px;
+  padding: 20px;
+
 }
 .card p {
   margin: 10px;
